@@ -1,22 +1,14 @@
-﻿using System;
-
-public class Test5Easy
+﻿public class Test5Easy
 {
-	public void DefiningLargerNumber()
-	{
-        Console.WriteLine("Введите число: a");
-        double a = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("Введите число: b");
-        double b = Convert.ToDouble(Console.ReadLine());
-
-        if (a > b)
+	 public void DefiningLargerNumber(int aNumber, int bNumber)
+	{      
+        if (aNumber > bNumber)
         {
-            Console.WriteLine($"Число а:{a}больше числа b{b}");
+            Console.WriteLine($"Число а:{aNumber}больше числа b{bNumber}");
         }
         else
         {
-            Console.WriteLine($"Число b:{b}больше числа a{a}");
+            Console.WriteLine($"Число b:{bNumber}больше числа a{aNumber}");
         }
     }
 }

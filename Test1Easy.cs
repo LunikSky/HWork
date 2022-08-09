@@ -1,10 +1,8 @@
-﻿using System;
-
-public class Test1Easy
+﻿public class Test1Easy
 {
-	public double CalculatingAreaTriangle(double a, double b)
+	public double CalculatingAreaTriangle(double aNumber, double bNumber)
 	{
-        return ($"Площадь прямоугольного треугольника равна: {(a * b) / 2}");
-        }
+        return ((aNumber * bNumber) / 2);
+    }
 }
 

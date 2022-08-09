@@ -1,20 +1,12 @@
-﻿using System;
-
-public class Test4Easy
+﻿public class Test4Easy
 {
-	public void TransferPoundsToKilograms()
-	{
-		Console.WriteLine("Введите массу в фунтах: ");
-		double a = Convert.ToDouble(Console.ReadLine());
+    public double TransferPoundsToKilograms(double weightPount)
+    {
+        return (weightPount * 0.453);
+    }
 
-		Console.WriteLine($"Масса в килограммах равна: {a * 0,453}");
-	}
-
-	public void TransferKilogramssToPounts()
-	{
-		Console.WriteLine("Введите массу в килограммах: ");
-		double b = Convert.ToDouble(Console.ReadLine());
-
-		Console.WriteLine($"Масса в фунтах равна: {b / 0,453}");
-	}
+    public double TransferKilogramssToPounts(double weightKg)
+    {
+        return (weightKg / 0.453);
+    }
 }
