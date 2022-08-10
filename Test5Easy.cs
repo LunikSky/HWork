@@ -4,11 +4,11 @@
 	{      
         if (aNumber > bNumber)
         {
-            Console.WriteLine($"Число а:{aNumber}больше числа b{bNumber}");
+            Console.WriteLine($"Число а: {aNumber} больше числа b: {bNumber}");
         }
         else
         {
-            Console.WriteLine($"Число b:{bNumber}больше числа a{aNumber}");
+            Console.WriteLine($"Число b: {bNumber} больше числа a: {aNumber}");
         }
     }
 }
